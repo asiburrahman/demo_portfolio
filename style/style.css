@@ -1,0 +1,88 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800 */
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* Shared Style */
+.button-primary{
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: 600;
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 20px;
+    box-shadow: 0px 10px 10px rgb(145, 144, 144);
+
+
+}
+.font-color-primary{
+    color: #181818;
+}
+.font-color-secondary{
+    color:#474747;
+}
+.font-color-third{
+    color: #757575;
+}
+
+/* nav style */
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 230px;
+    align-items: center;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 51px;
+}
+.nav-menu li{
+    list-style: none;
+    /* text-decoration: none; */
+    font-family: 20px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 38px 0px 230px;
+}
+
+.banner-content{
+    min-width: 585px;
+    max-height: 356px;
+}
+.banner-content h3{
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+.banner-content h1{
+    font-size: 85px;
+    margin: 0px;
+}
+.banner-content p{
+    font-size: 18px;
+}
+.download-btn{
+    margin-right: 20px;
+}
+
+header{
+    background-image: url(/images/developer.png), url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+}
