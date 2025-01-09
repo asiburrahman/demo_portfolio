@@ -170,9 +170,14 @@ menu{
 }
 
 /* experience description */
+.experience-container{
+    margin-top: 130px;
+}
+.experience-container button{
+    text-align: center;
+}
+
 .resume-container{
     display: flex;
-}
-.experience-column hr{
-    margin: 0px 20px 0px 20px;
+    gap: 24px;
 }
